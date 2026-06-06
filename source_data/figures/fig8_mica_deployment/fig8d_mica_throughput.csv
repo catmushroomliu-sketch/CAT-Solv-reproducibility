@@ -1,0 +1,7 @@
+task,rows,seconds,exit_code,stdout_tail,stderr_tail,rows_per_second,R2,MAE,RMSE,output_rows
+run_ood_5424,5424,1.3619766249999996,0,['Predictions written: MICA repository checkout/benchmarks/outputs/ood_5424_predictions.csv'],[],3982.447202425373,0.7980803178807725,0.4028924199087625,0.5605375620747008,
+screen_ood_5424,5424,0.8344272920000009,0,['Screening table written: MICA repository checkout/benchmarks/outputs/ood_5424_screen_top10.csv'],[],6500.266772194688,,,,3945.0
+run_ood_10848,10848,1.4899886250000005,0,['Predictions written: MICA repository checkout/benchmarks/outputs/ood_10848_predictions.csv'],[],7280.592494456121,0.7980803178807725,0.4028924199087625,0.5605375620747008,
+screen_ood_10848,10848,0.8321888749999999,0,['Screening table written: MICA repository checkout/benchmarks/outputs/ood_10848_screen_top10.csv'],[],13035.502307093448,,,,4412.0
+run_ood_54240,54240,3.2684367499999993,0,['Predictions written: MICA repository checkout/benchmarks/outputs/ood_54240_predictions.csv'],[],16595.08938026719,0.7980803178807725,0.4028924199087626,0.5605375620747008,
+screen_ood_54240,54240,0.910153458,0,['Screening table written: MICA repository checkout/benchmarks/outputs/ood_54240_screen_top10.csv'],[],59594.34590205117,,,,4510.0

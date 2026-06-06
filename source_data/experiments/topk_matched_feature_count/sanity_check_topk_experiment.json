@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "failures": [],
+  "row_counts": {
+    "v1": 103262,
+    "v2": 103262,
+    "full98": 103262,
+    "ood_test_rows": 5424,
+    "train_rows_per_seed": 88054,
+    "validation_rows_per_seed": 9784
+  },
+  "feature_counts": {
+    "v1": 33,
+    "v2": 47,
+    "full98": 98,
+    "selected_feature_rows": 2800,
+    "overall_metric_rows": 120
+  },
+  "numeric_missing_values": {
+    "v1_na": 0,
+    "v2_na": 0,
+    "full98_na": 0
+  },
+  "ood_solvents": [
+    "CS(C)=O",
+    "C1CCCCC1",
+    "OCCO",
+    "CN1CCCC1=O",
+    "CCCOC(C)=O"
+  ]
+}

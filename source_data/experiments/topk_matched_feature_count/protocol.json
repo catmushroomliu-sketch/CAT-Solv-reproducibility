@@ -1,0 +1,71 @@
+{
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "ood_solvents": [
+    {
+      "SMILES_Solvent": "CS(C)=O",
+      "Solvent_Name": "DMSO",
+      "n_rows_in_common_subset": 1076,
+      "frequency_rank_in_common_subset": 23
+    },
+    {
+      "SMILES_Solvent": "C1CCCCC1",
+      "Solvent_Name": "Cyclohexane",
+      "n_rows_in_common_subset": 1142,
+      "frequency_rank_in_common_subset": 20
+    },
+    {
+      "SMILES_Solvent": "OCCO",
+      "Solvent_Name": "Ethylene glycol",
+      "n_rows_in_common_subset": 1111,
+      "frequency_rank_in_common_subset": 22
+    },
+    {
+      "SMILES_Solvent": "CN1CCCC1=O",
+      "Solvent_Name": "NMP",
+      "n_rows_in_common_subset": 1049,
+      "frequency_rank_in_common_subset": 24
+    },
+    {
+      "SMILES_Solvent": "CCCOC(C)=O",
+      "Solvent_Name": "n-Propyl acetate",
+      "n_rows_in_common_subset": 1046,
+      "frequency_rank_in_common_subset": 25
+    }
+  ],
+  "feature_selection": "validation_shap_only_no_ood_leakage",
+  "top_k_values": [
+    33,
+    47,
+    60
+  ],
+  "models": [
+    "v1",
+    "v2",
+    "class_cross_top33_valshap",
+    "class_cross_top47_valshap",
+    "class_cross_top60_valshap",
+    "class_cross_full98"
+  ],
+  "source_experiment": "results/physchem_cross_20seed"
+}

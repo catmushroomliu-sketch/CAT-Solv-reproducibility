@@ -1,0 +1,6 @@
+SMILES_Solvent,Solvent_Name,n_rows_in_common_subset,frequency_rank_in_common_subset
+CS(C)=O,DMSO,1076,23
+C1CCCCC1,Cyclohexane,1142,20
+OCCO,Ethylene glycol,1111,22
+CN1CCCC1=O,NMP,1049,24
+CCCOC(C)=O,n-Propyl acetate,1046,25

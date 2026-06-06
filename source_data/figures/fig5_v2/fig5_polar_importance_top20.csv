@@ -1,0 +1,153 @@
+model,feature,group,mean_abs_shap,mean_signed_shap,rank
+base_no_gasteiger,Solvent_MolLogP,2D descriptors,0.2636585,0.030256797,1
+base_no_gasteiger,Solute_TPSA,2D descriptors,0.224389,-0.019214995,2
+base_no_gasteiger,Solute_BertzCT,2D descriptors,0.22169442,0.017298901,3
+base_no_gasteiger,Solute_MolLogP,2D descriptors,0.1739568,-0.018668102,4
+base_no_gasteiger,Temperature_K,Temperature,0.16826838,0.019803086,5
+base_no_gasteiger,Solute_BalabanJ,2D descriptors,0.11307173,-0.012878945,6
+base_no_gasteiger,Solute_MolWt,2D descriptors,0.10266325,-0.008513128,7
+base_no_gasteiger,Solute_NumHDonors,2D descriptors,0.097933285,0.009366546,8
+base_no_gasteiger,Solvent_NumHAcceptors,2D descriptors,0.07579432,-0.021460617,9
+base_no_gasteiger,Solute_LabuteASA,2D descriptors,0.06691752,-0.027037079,10
+base_no_gasteiger,Solute_RingCount,2D descriptors,0.05429895,-0.0031869616,11
+base_no_gasteiger,Solvent_TPSA,2D descriptors,0.047131255,0.022944285,12
+base_no_gasteiger,Solute_NumRotatableBonds,2D descriptors,0.04552107,-0.000722329,13
+base_no_gasteiger,Solute_NumAromaticRings,2D descriptors,0.04507649,-0.0023783548,14
+base_no_gasteiger,Solvent_NumHDonors,2D descriptors,0.043020442,0.027439168,15
+base_no_gasteiger,Solvent_MolWt,2D descriptors,0.041809272,0.03277595,16
+base_no_gasteiger,Solvent_BertzCT,2D descriptors,0.040816464,0.005908048,17
+base_no_gasteiger,Solute_HeavyAtomCount,2D descriptors,0.037920263,-0.015142714,18
+base_no_gasteiger,Solute_NumHAcceptors,2D descriptors,0.02560926,-0.0071948594,19
+base_no_gasteiger,Solvent_BalabanJ,2D descriptors,0.024958197,0.013246327,20
+base_no_gasteiger,Solvent_LabuteASA,2D descriptors,0.019718327,0.0033964345,21
+base_no_gasteiger,Solvent_RingCount,2D descriptors,0.018664502,0.014130397,22
+base_no_gasteiger,Solvent_NumRotatableBonds,2D descriptors,0.016054466,0.005968567,23
+base_no_gasteiger,Solvent_HeavyAtomCount,2D descriptors,0.0100175915,0.0007838857,24
+base_no_gasteiger,Solvent_NumAromaticRings,2D descriptors,0.00070088124,0.0005474231,25
+base_gasteiger,Solute_BertzCT,2D descriptors,0.23883045,0.005891311,1
+base_gasteiger,Solvent_MaxPartialCharge,Gasteiger charge,0.20282419,-0.053320933,2
+base_gasteiger,Solute_TPSA,2D descriptors,0.19926946,-0.011800457,3
+base_gasteiger,Temperature_K,Temperature,0.17553619,0.021809904,4
+base_gasteiger,Solvent_MolLogP,2D descriptors,0.1552815,0.023023948,5
+base_gasteiger,Solute_MolLogP,2D descriptors,0.14974868,-0.019074308,6
+base_gasteiger,Solvent_MinAbsPartialCharge,Gasteiger charge,0.10542643,0.054803662,7
+base_gasteiger,Solute_NumHDonors,2D descriptors,0.091093004,0.007705162,8
+base_gasteiger,Solute_MolWt,2D descriptors,0.08890842,0.008229249,9
+base_gasteiger,Solute_BalabanJ,2D descriptors,0.0797278,-0.010671722,10
+base_gasteiger,Solute_MaxPartialCharge,Gasteiger charge,0.065909296,-0.01091416,11
+base_gasteiger,Solvent_MinPartialCharge,Gasteiger charge,0.055028427,0.030828774,12
+base_gasteiger,Solute_MinAbsPartialCharge,Gasteiger charge,0.054865576,-0.008156877,13
+base_gasteiger,Solute_MinPartialCharge,Gasteiger charge,0.049124945,0.0003914553,14
+base_gasteiger,Solute_RingCount,2D descriptors,0.048656963,-0.0010597362,15
+base_gasteiger,Solute_LabuteASA,2D descriptors,0.04342326,-0.011928795,16
+base_gasteiger,Solute_NumRotatableBonds,2D descriptors,0.041387938,-0.0029051714,17
+base_gasteiger,Solute_NumAromaticRings,2D descriptors,0.038346972,0.0046595447,18
+base_gasteiger,Solute_MaxAbsPartialCharge,Gasteiger charge,0.03554062,-0.0059927553,19
+base_gasteiger,Solvent_BalabanJ,2D descriptors,0.030828431,0.0016883253,20
+base_gasteiger,Solvent_RingCount,2D descriptors,0.028865473,0.022688404,21
+base_gasteiger,Solute_HeavyAtomCount,2D descriptors,0.028597143,-0.023733038,22
+base_gasteiger,Solvent_NumHDonors,2D descriptors,0.027773565,0.011086994,23
+base_gasteiger,Solute_NumHAcceptors,2D descriptors,0.026638214,-0.007922855,24
+base_gasteiger,Solvent_MolWt,2D descriptors,0.025644097,0.011956311,25
+base_gasteiger,Solvent_BertzCT,2D descriptors,0.020275114,0.014924235,26
+base_gasteiger,Solvent_TPSA,2D descriptors,0.016598037,0.004371753,27
+base_gasteiger,Solvent_NumHAcceptors,2D descriptors,0.015517817,-0.0026908987,28
+base_gasteiger,Solvent_LabuteASA,2D descriptors,0.012015092,-0.0003324675,29
+base_gasteiger,Solvent_NumRotatableBonds,2D descriptors,0.009720169,0.0019094299,30
+base_gasteiger,Solvent_MaxAbsPartialCharge,Gasteiger charge,0.008394599,0.002798511,31
+base_gasteiger,Solvent_HeavyAtomCount,2D descriptors,0.00742198,0.0063853976,32
+base_gasteiger,Solvent_NumAromaticRings,2D descriptors,0.0008155895,0.00029712793,33
+sigma_gasteiger,Solute_BertzCT,2D descriptors,0.23816796,0.026716512,1
+sigma_gasteiger,Solute_TPSA,2D descriptors,0.17831904,-0.0035800596,2
+sigma_gasteiger,Temperature_K,Temperature,0.1755863,0.02045127,3
+sigma_gasteiger,Solvent_MaxPartialCharge,Gasteiger charge,0.16291325,-0.05369924,4
+sigma_gasteiger,Solvent_pos_area_frac,COSMO sigma moments,0.1510593,0.04766705,5
+sigma_gasteiger,Solute_MolLogP,2D descriptors,0.12763369,-0.009535596,6
+sigma_gasteiger,Solute_MolWt,2D descriptors,0.08939373,-0.015810952,7
+sigma_gasteiger,Solvent_sig3,COSMO sigma moments,0.0869307,0.07285791,8
+sigma_gasteiger,Solvent_MolLogP,2D descriptors,0.08250183,-0.012094292,9
+sigma_gasteiger,Solute_M_hb_don,COSMO sigma moments,0.07153214,0.0063113202,10
+sigma_gasteiger,Solute_BalabanJ,2D descriptors,0.06852214,-0.0011947944,11
+sigma_gasteiger,Solute_RingCount,2D descriptors,0.045935627,0.0010431148,12
+sigma_gasteiger,Solute_MaxPartialCharge,Gasteiger charge,0.045379195,-0.0059610694,13
+sigma_gasteiger,Solute_M_nonpolar,COSMO sigma moments,0.045129824,-0.00411426,14
+sigma_gasteiger,Solute_sig2,COSMO sigma moments,0.044872712,-0.014496472,15
+sigma_gasteiger,Solute_MinAbsPartialCharge,Gasteiger charge,0.04467286,-0.010038369,16
+sigma_gasteiger,Solute_LabuteASA,2D descriptors,0.041354906,-0.0013098978,17
+sigma_gasteiger,Solute_NumRotatableBonds,2D descriptors,0.039812554,-0.0027344755,18
+sigma_gasteiger,Solute_sig3,COSMO sigma moments,0.038609535,-0.0029140022,19
+sigma_gasteiger,Solute_NumHDonors,2D descriptors,0.03803993,0.0062555685,20
+sigma_gasteiger,Solute_NumAromaticRings,2D descriptors,0.036825348,0.0026428504,21
+sigma_gasteiger,Solvent_neg_area_frac,COSMO sigma moments,0.03379843,0.010449498,22
+sigma_gasteiger,Solvent_sig2,COSMO sigma moments,0.032768235,0.000106400665,23
+sigma_gasteiger,Solute_MinPartialCharge,Gasteiger charge,0.03262048,2.5907422e-05,24
+sigma_gasteiger,Solvent_MinPartialCharge,Gasteiger charge,0.03210401,0.0048374194,25
+sigma_gasteiger,Solute_pos_area_frac,COSMO sigma moments,0.029617745,-0.0038298871,26
+sigma_gasteiger,Solvent_M_nonpolar,COSMO sigma moments,0.028612133,0.02209545,27
+sigma_gasteiger,Solute_NumHAcceptors,2D descriptors,0.027448213,-0.00886031,28
+sigma_gasteiger,Solute_HeavyAtomCount,2D descriptors,0.026140677,-0.021235997,29
+sigma_gasteiger,Solute_M_hb_acc,COSMO sigma moments,0.025206234,-0.0078092325,30
+sigma_gasteiger,Solute_MaxAbsPartialCharge,Gasteiger charge,0.025011014,-0.005064782,31
+sigma_gasteiger,Solvent_BalabanJ,2D descriptors,0.022298897,0.005212267,32
+sigma_gasteiger,Solvent_MolWt,2D descriptors,0.020831324,0.0100502055,33
+sigma_gasteiger,Solvent_RingCount,2D descriptors,0.020019174,0.015956847,34
+sigma_gasteiger,Solvent_TPSA,2D descriptors,0.019998077,0.0104410555,35
+sigma_gasteiger,Solvent_MinAbsPartialCharge,Gasteiger charge,0.016873196,0.0073940065,36
+sigma_gasteiger,Solvent_M_hb_acc,COSMO sigma moments,0.01674261,0.011240319,37
+sigma_gasteiger,Solute_neg_area_frac,COSMO sigma moments,0.016435707,-0.0038487627,38
+sigma_gasteiger,Solvent_LabuteASA,2D descriptors,0.012739719,-0.0081547825,39
+sigma_gasteiger,Solvent_BertzCT,2D descriptors,0.012641694,0.00375602,40
+sigma_gasteiger,Solvent_MaxAbsPartialCharge,Gasteiger charge,0.007698668,0.0003240726,41
+sigma_gasteiger,Solvent_M_hb_don,COSMO sigma moments,0.004949757,0.0012308543,42
+sigma_gasteiger,Solvent_NumHDonors,2D descriptors,0.004567121,-0.00072734285,43
+sigma_gasteiger,Solvent_NumHAcceptors,2D descriptors,0.004232465,-0.00060473447,44
+sigma_gasteiger,Solvent_NumRotatableBonds,2D descriptors,0.0037260626,0.00053671637,45
+sigma_gasteiger,Solvent_HeavyAtomCount,2D descriptors,0.003639537,0.00028771057,46
+sigma_gasteiger,Solvent_NumAromaticRings,2D descriptors,0.0004992636,-0.00033676106,47
+cat_solv_top47,Solute_BertzCT,2D descriptors,0.20577033,0.013017205,1
+cat_solv_top47,Temperature_K,Temperature,0.17796658,0.020466778,2
+cat_solv_top47,Solvent_pos_area_frac,COSMO sigma moments,0.16003607,0.05273466,3
+cat_solv_top47,Solute_HB_capacity,2D descriptors,0.13774388,0.0013056098,4
+cat_solv_top47,Solvent_MaxPartialCharge,Gasteiger charge,0.11941334,-0.038176104,5
+cat_solv_top47,Solute_TPSA,2D descriptors,0.11146514,-0.0034371503,6
+cat_solv_top47,Solute_MolLogP,2D descriptors,0.09621497,0.0006493767,7
+cat_solv_top47,Solvent_sigma_asymmetry_abs,COSMO sigma moments,0.08969139,0.053393357,8
+cat_solv_top47,Solvent_sig3,COSMO sigma moments,0.08350282,0.07141448,9
+cat_solv_top47,Solute_BalabanJ,2D descriptors,0.074618936,-0.0021596255,10
+cat_solv_top47,Solvent_MolLogP,2D descriptors,0.069213875,-0.022389142,11
+cat_solv_top47,Solute_MolWt,2D descriptors,0.06552431,-0.008130079,12
+cat_solv_top47,Solute_M_hb_don,COSMO sigma moments,0.052319333,-0.0032196615,13
+cat_solv_top47,Solute_RingCount,2D descriptors,0.04662982,0.0032000968,14
+cat_solv_top47,Solute_MaxPartialCharge,Gasteiger charge,0.045286827,-0.0044207545,15
+cat_solv_top47,Solute_polar_surface_density,2D descriptors,0.044387214,-0.0070232465,16
+cat_solv_top47,Solute_LabuteASA,2D descriptors,0.044385474,0.006242233,17
+cat_solv_top47,Solute_NumAromaticRings,2D descriptors,0.041514758,0.010198788,18
+cat_solv_top47,Solute_MinAbsPartialCharge,Gasteiger charge,0.03956127,-0.010412558,19
+cat_solv_top47,Solute_NumRotatableBonds,2D descriptors,0.035752404,-0.006038369,20
+cat_solv_top47,Solute_M_nonpolar,COSMO sigma moments,0.03501109,-0.006483562,21
+cat_solv_top47,Solute_HeavyAtomCount,2D descriptors,0.034422193,-0.026532415,22
+cat_solv_top47,Cross_logP_abs_gap,Compatibility terms,0.034183692,-0.016417932,23
+cat_solv_top47,Solute_sig2,COSMO sigma moments,0.033791788,-0.004850698,24
+cat_solv_top47,Solute_sig3,COSMO sigma moments,0.032352887,0.0014780905,25
+cat_solv_top47,Cross_hb_don_moment_product,Compatibility terms,0.031780757,-0.01776212,26
+cat_solv_top47,Cross_HB_directional_balance,Compatibility terms,0.031301882,0.006518419,27
+cat_solv_top47,Cross_sigma2_abs_gap,COSMO sigma moments,0.030959718,0.01520986,28
+cat_solv_top47,Solvent_BalabanJ,2D descriptors,0.025341088,0.003513516,29
+cat_solv_top47,Class_ester_x_solute_TPSA_density,Solvent-class terms,0.025225347,-0.00047736216,30
+cat_solv_top47,Solvent_hydrophobic_density,2D descriptors,0.025182331,0.0060611544,31
+cat_solv_top47,Cross_TPSA_density_abs_gap,Compatibility terms,0.025126468,0.0051609804,32
+cat_solv_top47,Solute_MaxAbsPartialCharge,Gasteiger charge,0.025112417,0.0005370027,33
+cat_solv_top47,Cross_nonpolar_match,COSMO sigma moments,0.023181405,0.0046867924,34
+cat_solv_top47,Solute_M_hb_acc,COSMO sigma moments,0.022846686,0.0005733461,35
+cat_solv_top47,Solute_pos_area_frac,COSMO sigma moments,0.022414848,-0.004349659,36
+cat_solv_top47,Cross_surface_imbalance_product,Compatibility terms,0.021525105,0.0070767496,37
+cat_solv_top47,Solute_MinPartialCharge,Gasteiger charge,0.021267155,-0.0011226718,38
+cat_solv_top47,Solvent_sig2,COSMO sigma moments,0.021207597,-0.0037109982,39
+cat_solv_top47,Solvent_neg_area_frac,COSMO sigma moments,0.018761221,0.009936835,40
+cat_solv_top47,Solute_NumHDonors,2D descriptors,0.017108357,0.003270646,41
+cat_solv_top47,Class_ester_x_solute_HBD,Solvent-class terms,0.015861828,-0.00074043527,42
+cat_solv_top47,Solute_neg_area_frac,COSMO sigma moments,0.013703919,-0.005354463,43
+cat_solv_top47,Cross_sigma3_abs_gap,COSMO sigma moments,0.0134883635,0.0032692286,44
+cat_solv_top47,Solvent_LabuteASA,2D descriptors,0.011067958,-0.0064471993,45
+cat_solv_top47,Solvent_self_hbond_proxy,2D descriptors,0.008628539,0.00088578294,46
+cat_solv_top47,Cross_acc_to_don_surface,Compatibility terms,0.0075228545,-0.003395761,47

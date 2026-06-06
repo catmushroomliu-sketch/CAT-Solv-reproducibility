@@ -1,0 +1,49 @@
+{
+  "description": "IID random-split evaluation (interpolation)",
+  "ood_solvents": [
+    "CS(C)=O",
+    "C1CCCCC1",
+    "OCCO",
+    "CN1CCCC1=O",
+    "CCCOC(C)=O"
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "models": [
+    "2D-Min",
+    "2D-Elec",
+    "Sigma-noElec",
+    "Sigma-Solv"
+  ],
+  "train_pool_rows": 97838,
+  "ood_test_rows": 5424,
+  "xgb_params": {
+    "n_estimators": 500,
+    "max_depth": 8,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "early_stopping_rounds": 30
+  },
+  "split_method": "random 80/20 train/test, 10% of train for validation"
+}

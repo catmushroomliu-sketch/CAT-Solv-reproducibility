@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this CAT-Solv reproducibility package, please cite the associated manuscript and repository release."
+title: "CAT-Solv reproducibility package"
+authors:
+  - family-names: "Liu"
+    given-names: "Ziqi"
+  - family-names: "Qi"
+    given-names: "Guanhao"
+  - family-names: "Gao"
+    given-names: "Shanshan"
+  - family-names: "Song"
+    given-names: "Xiaoming"
+repository-code: "https://github.com/catmushroomliu-sketch/CAT-Solv-reproducibility"
+version: "0.1.0-submission"
+date-released: "2026-06-07"
+license: "MIT"
+url: "https://github.com/catmushroomliu-sketch/CAT-Solv-reproducibility"
+preferred-citation:
+  type: article
+  title: "Physics-Informed Surface Descriptors Improve Solvent-OOD Solubility Prediction"
+  authors:
+    - family-names: "Liu"
+      given-names: "Ziqi"
+    - family-names: "Qi"
+      given-names: "Guanhao"
+    - family-names: "Gao"
+      given-names: "Shanshan"
+    - family-names: "Song"
+      given-names: "Xiaoming"
+  year: 2026
+  notes: "Manuscript submitted to Journal of Chemical Information and Modeling."
