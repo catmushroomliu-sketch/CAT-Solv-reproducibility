@@ -11,7 +11,7 @@ authors:
   - family-names: "Song"
     given-names: "Xiaoming"
 repository-code: "https://github.com/catmushroomliu-sketch/CAT-Solv-reproducibility"
-version: "0.1.0-submission"
+version: "0.1.1-submission"
 date-released: "2026-06-07"
 license: "MIT"
 url: "https://github.com/catmushroomliu-sketch/CAT-Solv-reproducibility"

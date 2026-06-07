@@ -35,6 +35,7 @@ ALLOWLIST = {
 }
 
 EXCLUDED_DIRS = {".git", "__pycache__", ".ipynb_checkpoints"}
+EXCLUDED_NAMES = {".DS_Store"}
 EXCLUDED_SUFFIXES = {".pyc"}
 MANIFEST_PATH = Path("metadata/release_file_manifest.tsv")
 
@@ -48,6 +49,8 @@ def iter_files() -> list[Path]:
         if rel == MANIFEST_PATH:
             continue
         if any(part in EXCLUDED_DIRS for part in rel.parts):
+            continue
+        if path.name in EXCLUDED_NAMES:
             continue
         if path.suffix.lower() in EXCLUDED_SUFFIXES:
             continue
