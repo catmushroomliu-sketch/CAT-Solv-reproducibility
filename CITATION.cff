@@ -13,8 +13,9 @@ authors:
 repository-code: "https://github.com/catmushroomliu-sketch/CAT-Solv-reproducibility"
 version: "0.1.1-submission"
 date-released: "2026-06-07"
+doi: "10.5281/zenodo.20576521"
 license: "MIT"
-url: "https://github.com/catmushroomliu-sketch/CAT-Solv-reproducibility"
+url: "https://doi.org/10.5281/zenodo.20576521"
 preferred-citation:
   type: article
   title: "Physics-Informed Surface Descriptors Improve Solvent-OOD Solubility Prediction"

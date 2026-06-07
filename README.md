@@ -1,5 +1,7 @@
 # CAT-Solv Reproducibility Package
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20576521.svg)](https://doi.org/10.5281/zenodo.20576521)
+
 This repository contains the curated reproducibility materials for the CAT-Solv solvent-out-of-distribution solubility benchmark and the MICA deployment analysis.
 
 The local working project contains historical drafts, preview figures, graphical-layout experiments, large descriptor-generation intermediates, and manuscript-editing scratch files. Those materials are intentionally excluded. This release package is limited to the code, source tables, final manuscript/SI files, final figure files, and metadata needed to audit or rerun the reported quantitative results.
@@ -55,7 +57,7 @@ The following materials are excluded from the GitHub-sized code release:
 - Figure layout/artwork scripts. The manuscript figures were assembled through a mixed Python/Origin/HTML/SVG workflow; source CSV/JSON tables and final figure PDFs are provided for audit of quantitative values.
 - Local manuscript drafts, Word files, AI-editing scratch files, historical preview figures, and machine-local absolute paths.
 
-Large data products should be deposited as a versioned Zenodo archive or another DOI-backed repository. See `DATA_AVAILABILITY.md` and `DATA_PACKAGE_MANIFEST.md`.
+The release is archived on Zenodo at <https://doi.org/10.5281/zenodo.20576521>. See `DATA_AVAILABILITY.md` and `DATA_PACKAGE_MANIFEST.md` for scope and upstream-data notes.
 
 ## Quick setup
 
@@ -75,4 +77,4 @@ The audit checks for large files, local absolute paths, and common release-block
 
 ## Release status
 
-This local package is prepared as a submission release candidate. Before public posting, the repository should be pushed to GitHub, tagged, and archived through Zenodo or an equivalent DOI-backed service. After the DOI is assigned, update `DATA_AVAILABILITY.md` and `CITATION.cff` with the final DOI and release date.
+This repository is archived as the submission release `v0.1.1-submission` at <https://doi.org/10.5281/zenodo.20576521>.
