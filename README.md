@@ -4,7 +4,7 @@
 
 This repository contains the curated reproducibility materials for the CAT-Solv solvent-out-of-distribution solubility benchmark and the MICA deployment analysis.
 
-The local working project contains historical drafts, preview figures, graphical-layout experiments, large descriptor-generation intermediates, and manuscript-editing scratch files. Those materials are intentionally excluded. This release package is limited to the code, source tables, final manuscript/SI files, final figure files, and metadata needed to audit or rerun the reported quantitative results.
+The local working project contains historical drafts, preview figures, graphical-layout experiments, large descriptor-generation intermediates, and manuscript-editing scratch files. Those materials are intentionally excluded. This release package is limited to the code, source tables, final figure files, and metadata needed to audit or rerun the reported quantitative results.
 
 ## Repository scope
 
@@ -12,7 +12,7 @@ The local working project contains historical drafts, preview figures, graphical
 - Descriptor hierarchy and matched feature-count experiments.
 - Twenty-seed robustness analyses across tree learners.
 - Source tables for manuscript figures and reported metrics.
-- Final manuscript, Supporting Information, TOC graphic, and manuscript/SI figure PDFs.
+- Final manuscript/SI figure PDFs and the TOC graphic.
 - MICA model and descriptor metadata snapshots connecting this analysis package to the separate MICA software repository.
 
 MICA itself is maintained separately at:
@@ -22,9 +22,6 @@ MICA itself is maintained separately at:
 ## Directory layout
 
 ```text
-docs/
-  manuscript/                 Final manuscript PDF, TeX, BibTeX, and TOC graphic
-  supporting_information/     Final Supporting Information PDF, TeX, and BibTeX
 figures/
   manuscript/                 Final manuscript figure PDFs and TOC graphic
   supporting_information/     Final selected SI figure files
@@ -39,7 +36,6 @@ source_data/
 
 ## What is included
 
-- Final manuscript and Supporting Information files used for submission.
 - Final manuscript figures: Figure 1--Figure 6, Figure 8, and the TOC graphic.
 - Final selected Supporting Information figures.
 - Lightweight source data for figure/table audit.

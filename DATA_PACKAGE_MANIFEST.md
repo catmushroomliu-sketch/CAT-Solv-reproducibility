@@ -9,7 +9,6 @@ These files are already staged in `source_data/`:
 - Figure source CSV/JSON files under `source_data/figures/`.
 - Aggregated experiment summaries under `source_data/experiments/`.
 - MICA model metadata snapshots under `metadata/mica/`.
-- Final manuscript and Supporting Information files under `docs/`.
 - Final manuscript and selected Supporting Information figures under `figures/`.
 
 Figure layout scripts are not required for the public reproducibility package. The release provides final figure files plus the source CSV/JSON tables needed to audit plotted values.
