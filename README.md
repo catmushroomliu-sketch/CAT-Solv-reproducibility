@@ -73,4 +73,4 @@ The audit checks for large files, local absolute paths, and common release-block
 
 ## Release status
 
-This repository is archived as the submission release `v0.1.1-submission` at <https://doi.org/10.5281/zenodo.20576521>.
+This repository is archived as the submission release `v0.1.1-submission` at <https://zenodo.org/records/22308071>.
