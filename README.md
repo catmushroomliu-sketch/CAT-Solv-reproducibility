@@ -20,7 +20,6 @@ This package is intended for readers who want to:
 - reproduce the fixed five-solvent OOD benchmark and descriptor-ablation analyses;
 - inspect the 20-seed robustness results across multiple tree learners;
 - trace manuscript figures and tables back to their source CSV/JSON files;
-- examine the final manuscript figures, Supporting Information figures, and TOC artwork;
 - inspect the feature, solvent-domain, and applicability-domain metadata used by MICA;
 - rerun the reported experiments when the corresponding prepared descriptor matrices are available.
 
